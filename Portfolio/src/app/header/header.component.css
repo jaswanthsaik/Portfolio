@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    /* Change this to your desired background color */
+    color: #fff;
+    /* Change this to your desired text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    z-index: 100;
+    /* Ensure it's above other content */
+}
+
+/* Style for the logo (your name) */
+.logo {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+}
+
+/* Style for the navigation menu */
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 80px;
+}
+
+.navigation li {
+    margin-right: 20px;
+    /* Adjust the spacing between buttons */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    /* Change this to your desired text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* Add a smooth color transition on hover */
+
+    /* Additional styles for hover effect */
+}
+
+.navigation a:hover {
+    color: #ff9900;
+    /* Change this to your desired hover color */
+}
